@@ -1,0 +1,130 @@
+body{
+	margin:0;
+	color:#fff;
+	font:17px/25px Georgia, "Times New Roman", Times, serif;
+	background:#1f242a;
+	min-width:446px;
+}
+img{border-style:none;}
+a{text-decoration:none; color:#a82720;}
+a:hover{text-decoration:underline;}
+input,
+textarea,
+select{
+	font:100% Georgia, "Times New Roman", Times, serif;
+	vertical-align:middle;
+	color:#000;
+	outline:none;
+}
+form,fieldset{
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+q{quotes:none;}
+q:before{content:''}
+q:after{content:''}
+#wrapper{
+	width:100%;
+	overflow:hidden;
+	padding:50px 0;
+}
+.order-block{
+	background:url(../images/bg-order-page-block.png) no-repeat;
+	width:400px;
+	height:680px;
+	margin:0 auto;
+	padding:68px 23px 0;
+	position:relative;
+	text-align:center;
+	font-size:15px;
+	line-height:30px;
+	color:#d5e5eb;
+}
+.order-block:after{
+	display:block;
+	clear:both;
+	content:'';
+}
+.decoration{
+	background:url(../images/order-page-decoration.png) no-repeat;
+	width:24px;
+	height:32px;
+	position:absolute;
+	left:-23px;
+	top:336px;
+}
+.order-block .text-holder{
+	overflow:hidden;
+	padding:0 0 21px;
+}
+.order-block h2{
+	font:35px/35px "Lobster", Arial, Helvetica, sans-serif;
+	margin:0 0 59px;
+	color:#fff;
+}
+.order-block h2 span{
+	display:block;
+	font-size:45px;
+	line-height:45px;
+	color:#fcca49;
+	margin:0 0 -2px;
+}
+.order-block p{margin:0 0 18px;}
+.order-block .text-box{
+	overflow:hidden;
+	font-size:20px;
+	line-height:30px;
+	color:#1f242a;
+	padding:30px 0 0;
+}
+.order-block .text-box h2{
+	font-size:35px;
+	line-height:40px;
+	color:#1f242a;
+	margin:0 0 32px;
+}
+.order-block .text-box h2 span{
+	font-size:45px;
+	line-height:45px;
+	color:#ae1d1d;
+	display:block;
+	margin:-6px 0 0;
+}
+.order-form{
+	overflow:hidden;
+}
+.order-form .text{
+	background:url(../images/bg-order-page-text.png) no-repeat;
+	width:253px;
+	height:42px;
+	float:left;
+}
+.order-block .text-box p{
+	margin:0 0 18px;
+}
+.order-form .text input[type="text"]{
+	background:none;
+	border:none;
+	width:227px;
+	height:20px;
+	float:left;
+	font-size:16px;
+	line-height:40px;
+	color:#726033;
+	padding:10px 13px 12px;
+}
+.btn-save{
+	border:none;
+	background:url(../images/order-page-btn-save.png) no-repeat;
+	width:129px;
+	height:40px;
+	float:right;
+	font: 20px/40px "Roboto Condensed", Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	color:#fff;
+	float:right;
+	padding:0 0 2px;
+	margin:0;
+	cursor:pointer;
+}
